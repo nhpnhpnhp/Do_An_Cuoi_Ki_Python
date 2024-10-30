@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r"C:\Users\THINKPAD\doancuoiki\global_air_pollution_dataset.csv")
+df = pd.read_csv("global_air_pollution_dataset.csv")
 print("Trước khi làm sạch dữ liệu ta có :", len(df), "bản ghi")
 
 ###########################Clean data##################################
